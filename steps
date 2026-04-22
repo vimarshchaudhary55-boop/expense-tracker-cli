@@ -1,0 +1,21 @@
+---
+
+# 🚀 4. How to Upload to GitHub (Step-by-Step)
+
+### Step 1: Create Repo
+- Go to GitHub
+- Click **New Repository**
+- Name: `expense-tracker-cli`
+- Click **Create**
+
+---
+
+### Step 2: Upload via Terminal
+
+```bash
+git init
+git add .
+git commit -m "Initial commit - expense tracker CLI"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/expense-tracker-cli.git
+git push -u origin main
